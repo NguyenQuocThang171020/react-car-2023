@@ -1,12 +1,13 @@
-.content{
-    height: 465px;
+.list-container{
+    overflow: hidden;
 }
-
+.content{
+    height: 100vh;
+}
 .swiper {
     width: 100%;
     height: 100%;
 }
-  
 .swiper-slide {
     text-align: center;
     font-size: 18px;
@@ -17,10 +18,16 @@
     justify-content: center;
     align-items: center;
 }
-  
 .swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+.menu-car{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+    padding: 0px 25px;
 }

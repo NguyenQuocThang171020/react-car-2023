@@ -1,4 +1,5 @@
-const NewsCar = () => {
+import './discover.css'
+const Discover = () => {
     return ( 
         <div className="news-container">
             News Car
@@ -6,4 +7,4 @@ const NewsCar = () => {
      );
 }
  
-export default NewsCar;
+export default Discover;

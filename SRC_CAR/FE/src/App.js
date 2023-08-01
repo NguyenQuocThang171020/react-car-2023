@@ -1,9 +1,9 @@
 import './App.css';
 import Home from './component/Home/Home';
-import Login from './component/Login/Login';
-import ListCar from './component/ListCar/ListCar';
-import NewsCar from './component/NewsCar/NewsCar';
+import Model from './component/Model/Model';
+import Discover from './component/Discover/Discover';
 import Contact from './component/Contact/Contact';
+import Service from './component/Service/Service';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -19,10 +19,10 @@ function App() {
             </div>
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/login" element={<Login/>}/>
-        <Route path="/list" element={<ListCar/>}/>
-        <Route path="/news" element={<NewsCar/>}/>
+        <Route path="/model" element={<Model/>}/>
+        <Route path="/discover" element={<Discover/>}/>
         <Route path="/contact" element={<Contact/>}/>
+        <Route path="/service" element={<Service/>}/>
         <Route path="*" element={<Home/>}/>
       </Routes>
     </Router>

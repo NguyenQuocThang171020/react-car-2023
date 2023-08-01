@@ -1,7 +1,7 @@
 import './home.css'
 import { useState, Fragment } from "react";
 import { BsFillPlayCircleFill } from 'react-icons/bs';
-import { SiBmw, SiHonda, SiFord, SiMercedes, SiVolkswagen, SiToyota, SiHyundai, SiGeneralmotors, SiTesla, SiRenault, SiNissan, SiKia } from 'react-icons/si'
+import { SiBmw, SiHonda, SiFord, SiAudi ,SiMercedes, SiTesla, SiToyota, SiHyundai, SiSuzuki, SiVolkswagen, SiRollsroyce, SiNissan, SiKia ,SiPorsche} from 'react-icons/si'
 import { Link } from 'react-router-dom';
 
 
@@ -14,11 +14,9 @@ const Home = () => {
                     <div className='logo'>Trymto</div>
                     <ul className='menu flex'>
                         <li className='nav'><Link to="/" className='text-nav'>Home</Link></li>
-                        <li className='nav'><Link to="/list" className='text-nav'>List</Link></li>
-                        <li className='nav'><Link to="/news" className='text-nav'>News</Link></li>
-                        <li className='nav'>
-                            <span className='btn-select'><Link to="/login" className='text-nav'>Login</Link></span>
-                        </li>
+                        <li className='nav'><Link to="/service" className='text-nav'>Service</Link></li>
+                        <li className='nav'><Link to="/discover" className='text-nav'>Discover</Link></li>
+                        <li className='nav'><Link to="/contact" className='text-nav'>Contact</Link></li>
                     </ul>
                 </div>
                 <div className='content-header flex'>
@@ -37,7 +35,7 @@ const Home = () => {
                             </div>
                         </div>
                         </span>
-                        <span className='btn-select' variant="outlined"><Link to="/list" className='text-nav'>Buy Now</Link></span>
+                        <span className='btn-select' variant="outlined"><Link to="/model" className='text-nav'>Buy Now</Link></span>
                     </div>
                     <div className='explain-introduce'></div>
                 </div>
@@ -46,15 +44,17 @@ const Home = () => {
                         <span className='icon-company'><SiBmw /></span>
                         <span className='icon-company'><SiHonda /></span>
                         <span className='icon-company'><SiFord /></span>
+                        <span className='icon-company'><SiAudi /></span>
                         <span className='icon-company'><SiMercedes /></span>
-                        <span className='icon-company'><SiVolkswagen /></span>
+                        <span className='icon-company'><SiTesla /></span>
                         <span className='icon-company'><SiToyota /></span>
                         <span className='icon-company'><SiHyundai /></span>
-                        <span className='icon-company'><SiGeneralmotors /></span>
-                        <span className='icon-company'><SiTesla /></span>
-                        <span className='icon-company'><SiRenault /></span>
+                        <span className='icon-company'><SiSuzuki /></span>
+                        <span className='icon-company'><SiVolkswagen /></span>
+                        <span className='icon-company'><SiRollsroyce /></span>
                         <span className='icon-company'><SiNissan /></span>
                         <span className='icon-company'><SiKia /></span>
+                        <span className='icon-company'><SiPorsche /></span>
                     </div>
                     <div className="wrapper"></div>
                 </div>
